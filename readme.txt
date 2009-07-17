@@ -10,9 +10,9 @@ The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
 == Description ==
 
-Get Book information for millions of Books by ISBN. using the Book Widget.
+Get Book information for millions of Books by ISBN using the Book Widget. No account required.
 
-You need an account at iBookDB to use the Bookshelf widget. 
+You need an account at iBookDB to use the Bookshelf widget which shows random books from your bookshelf on your blog. 
 Just enter your username, number of rows and number of columns and you are good to go.
 
 To use go to Appearance->Widgets and drag and drop the widgets wherever you want.
