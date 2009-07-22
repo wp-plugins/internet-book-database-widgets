@@ -4,13 +4,9 @@ Plugin Name: Internet Book Database Book Widgets
 Plugin URI: http://www.ibookdb.net/
 Description: Internet Book Database Bookshelf and Book Widgets
 Author: Siddharth Dalal
-Version: 1
+Version: 1.1
 Author URI: http://www.ibookdb.net/
 */
-
-function sampleHelloWorld() {
-  echo "<h2>Hello World</h2>";
-}
 
 function widget_iBookDB_Book($args) {
   extract($args);
@@ -73,8 +69,8 @@ function options_iBookDB_Bookshelf() {
 	echo '<div>
 	<label for="widget_iBookDB_Bookshelf-username">Username: <input type="text" id="widget_iBookDB_Bookshelf-username" name="widget_iBookDB_Bookshelf-username" value="' . $options['username'] . '"/></label><br>
 	<label for="widget_iBookDB_Bookshelf-rows">Rows: <input type="text" id="widget_iBookDB_Bookshelf-rows" name="widget_iBookDB_Bookshelf-rows" value="' . $options['rows'] . '"/></label><br>
-	<label for="widget_iBookDB_Bookshelf-cols">Cols: <input type="text" id="widget_iBookDB_Bookshelf-cols" name="widget_iBookDB_Bookshelf-cols" value="' . $options['cols'] . '"/></label>
-	<label for="widget_iBookDB_Bookshelf-smallimage">Cols: <select id="widget_iBookDB_Bookshelf-smallimage" name="widget_iBookDB_Bookshelf-smallimage">
+	<label for="widget_iBookDB_Bookshelf-cols">Cols: <input type="text" id="widget_iBookDB_Bookshelf-cols" name="widget_iBookDB_Bookshelf-cols" value="' . $options['cols'] . '"/></label><br>
+	<label for="widget_iBookDB_Bookshelf-smallimage">Image Size: <select id="widget_iBookDB_Bookshelf-smallimage" name="widget_iBookDB_Bookshelf-smallimage">
 		<option value="1">Small Images</option>
 		<option value="0" ' . ($options['smallimage']=='0'?'selected':'') . '>Medium Images</option>
 	</select></label>
@@ -90,8 +86,17 @@ function iBookDB_init() {
   register_widget_control(__('Internet Book Database Bookshelf Widget'), 'options_iBookDB_Bookshelf');
 }
 
+function isbn_replace($index_array) {
+	//echo $index_array[0];
+	return file_get_contents('http://www.ibookdb.net/bookbadgetest.php?isbn=' . str_replace(array('[ISBN:', ']'), '', $index_array[0]));
+}
 
+function iBookDB_ISBN($content) {
+	$content=preg_replace_callback ('/\[ISBN:([0-9xX]+)\]/' , 'isbn_replace' , $content);
+	return $content;
+}
 
 add_action("plugins_loaded", "iBookDB_init");
+add_filter('the_content', 'iBookDB_ISBN');
 
 ?>

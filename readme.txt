@@ -4,7 +4,7 @@ Donate link: http://www.ibookdb.net/marketing.php
 Tags: Books, Bookshelf, Manage
 Requires at least: 2.6
 Tested up to: 2.8
-Stable tag: 1
+Stable tag: 1.1
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
@@ -19,7 +19,7 @@ To use go to Appearance->Widgets and drag and drop the widgets wherever you want
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This section describes how to manually install the plugin and get it working.
 
 e.g.
 
