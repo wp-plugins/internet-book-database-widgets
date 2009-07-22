@@ -23,6 +23,7 @@ BOOK INFORMATION IN POSTS:
 Also Insert Book Information directly into your posts by typing
 [ISBN:ISBNNUMBER] for example [ISBN:9780805079593]
 
+For an example on using and customization go to http://www.s1dd.com/2009/07/the-internet-book-database-book-information-widget/
 
 == Installation ==
 
