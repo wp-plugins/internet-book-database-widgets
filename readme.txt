@@ -4,20 +4,29 @@ Donate link: http://www.ibookdb.net/marketing.php
 Tags: Books, Bookshelf, Manage
 Requires at least: 2.6
 Tested up to: 2.8
-Stable tag: 1.1
+Stable tag: 1.2
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
 == Description ==
 
-Get Book information for millions of Books by ISBN using the Book Widget. No account required.
+BOOK WIDGET:
+Get Book information for millions of Books by ISBN using the Book Widget. No account required. 
 
+BOOKSHELF WIDGET:
 You need an account at iBookDB to use the Bookshelf widget which shows random books from your bookshelf on your blog. 
 Just enter your username, number of rows and number of columns and you are good to go.
 
-To use go to Appearance->Widgets and drag and drop the widgets wherever you want.
+To use the widgets go to Appearance->Widgets and drag and drop the widgets wherever you want.
+
+BOOK INFORMATION IN POSTS:
+Also Insert Book Information directly into your posts by typing
+[ISBN:ISBNNUMBER] for example [ISBN:9780805079593]
+
 
 == Installation ==
+
+We recommend installing this plugin using the automatic installation from the Plugin Directory.
 
 This section describes how to manually install the plugin and get it working.
 

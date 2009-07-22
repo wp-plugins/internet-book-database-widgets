@@ -4,7 +4,7 @@ Plugin Name: Internet Book Database Book Widgets
 Plugin URI: http://www.ibookdb.net/
 Description: Internet Book Database Bookshelf and Book Widgets
 Author: Siddharth Dalal
-Version: 1.1
+Version: 1.2
 Author URI: http://www.ibookdb.net/
 */
 
