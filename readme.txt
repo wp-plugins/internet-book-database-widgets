@@ -1,9 +1,9 @@
-=== Internet Book Database Book Widgets ===
+=== Plugin Name ===
 Contributors: Siddharth Dalal
 Donate link: http://www.ibookdb.net/marketing.php
-Tags: Books, Bookshelf, Manage, Authors, ISBN, Sidebar, Post, Widget
+Tags: Books, Bookshelf, Manage
 Requires at least: 2.6
-Tested up to: 2.8
+Tested up to: 2.8.2
 Stable tag: 1.2
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
