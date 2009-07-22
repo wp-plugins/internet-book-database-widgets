@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: Siddharth Dalal
 Donate link: http://www.ibookdb.net/marketing.php
-Tags: Books, Bookshelf, Manage
+Tags: Books, Bookshelf, Manage, Authors, ISBN
 Requires at least: 2.6
 Tested up to: 2.8
 Stable tag: 1.2
