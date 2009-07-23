@@ -1,17 +1,17 @@
-=== Plugin Name ===
+=== Internet Book Database Book Widgets ===
 Contributors: Siddharth Dalal
 Donate link: http://www.ibookdb.net/marketing.php
-Tags: Books, Bookshelf, Manage
+Tags: Books, Bookshelf, Manage, Authors, ISBN, Sidebar, Post, Widget
 Requires at least: 2.6
-Tested up to: 2.8.2
+Tested up to: 2.8
 Stable tag: 1.2
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
 == Description ==
 
+Get Book information, Author, Title, Cover for millions of Books by ISBN using the Book Widget. No account required. 
 BOOK WIDGET:
-Get Book information for millions of Books by ISBN using the Book Widget. No account required. 
 
 BOOKSHELF WIDGET:
 You need an account at iBookDB to use the Bookshelf widget which shows random books from your bookshelf on your blog. 
