@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Internet Book Database Book Widgets
-Plugin URI: http://www.ibookdb.net/
+Plugin URI: http://www.ibookdb.net/forums/index.php/topic,2054.0.html
 Description: Internet Book Database Bookshelf and Book Widgets
 Author: Siddharth Dalal
-Version: 1.2
-Author URI: http://www.ibookdb.net/
+Version: 1.3
+Author URI: http://www.ibookdb.net/forums/index.php/topic,2054.0.html
 */
 
 function widget_iBookDB_Book($args) {

@@ -4,7 +4,7 @@ Donate link: http://www.ibookdb.net/marketing.php
 Tags: Books, Bookshelf, Manage, Authors, ISBN, Sidebar, Post, Widget
 Requires at least: 2.6
 Tested up to: 2.8
-Stable tag: 1.2
+Stable tag: 1.3
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
