@@ -36,3 +36,17 @@ e.g.
 1. Upload `ibookdbwidget.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. To use go to Appearance->Widgets and drag and drop the widgets wherever you want.
+
+== Screenshots ==
+1. Examples
+
+== Changelog ==
+
+= 1.3 =
+* Added Preview Support for Book with Previews
+
+= 1.2 = 
+* Removed iBookDB theme so content matches your blog.
+
+= 1.1 = 
+* Added [ISBN:ISBNNUMBER] Filter for Posts
