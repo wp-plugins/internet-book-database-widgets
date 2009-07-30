@@ -10,8 +10,7 @@ The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
 == Description ==
 
-Get Book information, Author, Title, Cover for millions of Books by ISBN using the Book Widget. No account required. 
-BOOK WIDGET:
+BOOK WIDGET: Get Book information, Author, Title, Cover for millions of Books by ISBN using the Book Widget. No account required. 
 
 BOOKSHELF WIDGET:
 You need an account at iBookDB to use the Bookshelf widget which shows random books from your bookshelf on your blog. 
