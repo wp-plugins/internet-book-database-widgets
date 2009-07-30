@@ -10,18 +10,19 @@ The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
 
 == Description ==
 
-BOOK WIDGET: Get Book information, Author, Title, Cover for millions of Books by ISBN using the Book Widget. No account required. 
+= Book Widget = 
+Get Book information, Author, Title, Cover for millions of Books by ISBN using the Book Widget. No account required. 
 
-BOOKSHELF WIDGET:
+= Book Information in Blog Posts =
+You can also insert the same book information directly into your posts by typing
+[ISBN:ISBNNUMBER] for example [ISBN:9780805079593]
+
+= Bookshelf Widget = 
 You need an account at iBookDB to use the Bookshelf widget which shows random books from your bookshelf on your blog. 
 Just enter your username, number of rows and number of columns and you are good to go.
 
+= Using The Widgets and Plugin = 
 To use the widgets go to Appearance->Widgets and drag and drop the widgets wherever you want.
-
-BOOK INFORMATION IN POSTS:
-Also Insert Book Information directly into your posts by typing
-[ISBN:ISBNNUMBER] for example [ISBN:9780805079593]
-
 For an example on using and customization go to http://www.s1dd.com/2009/07/the-internet-book-database-book-information-widget/
 
 == Installation ==
