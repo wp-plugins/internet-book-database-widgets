@@ -44,6 +44,8 @@ e.g.
 1. Examples
 
 == Changelog ==
+= 1.4 =
+* Added Screenshots, instructions etc. No major Changes
 
 = 1.3 =
 * Added Preview Support for Book with Previews
