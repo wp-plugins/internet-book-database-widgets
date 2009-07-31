@@ -55,3 +55,7 @@ e.g.
 
 = 1.1 = 
 * Added [ISBN:ISBNNUMBER] Filter for Posts
+
+== Frequently Asked Questions ==
+
+None so far!
