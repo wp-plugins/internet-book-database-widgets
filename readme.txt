@@ -3,7 +3,7 @@ Contributors: Siddharth Dalal
 Donate link: http://www.ibookdb.net/marketing.php
 Tags: Books, Bookshelf, Manage, Authors, ISBN, Sidebar, Post, Widget
 Requires at least: 2.6
-Tested up to: 2.8
+Tested up to: 2.8.2
 Stable tag: 1.4
 
 The Internet Book Database Bookshelf and Book Information from ISBN Widgets.
@@ -58,4 +58,6 @@ e.g.
 
 == Frequently Asked Questions ==
 
-None so far!
+Aarghhh!! I am seeing books that are not on my bookshelf!!! What do I do?
+
+Nothing, that bug has now been fixed
